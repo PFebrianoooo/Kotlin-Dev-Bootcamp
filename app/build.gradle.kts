@@ -44,7 +44,10 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
-    implementation(platform(libs.androidx.compose.bom))
+
+    // For Swipe To Delete & Dependency for TextMarquee (BOM)
+    implementation(platform("androidx.compose:compose-bom:2025.05.00"))
+
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
@@ -56,4 +59,16 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Dependency for navigation
+    implementation("androidx.navigation:navigation-compose:2.9.3")
+
+    // Dependency for lottie
+    implementation("com.airbnb.android:lottie-compose:6.6.7")
+
+    // Dependency for pager
+    implementation("com.google.accompanist:accompanist-pager:0.12.0")
+
+    // Dependency for DataStore
+    implementation ("androidx.datastore:datastore-preferences:1.1.1")
 }

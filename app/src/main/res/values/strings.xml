@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">KotlinDevBootcamp</string>
-    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_introduction">Introduction</string>
+    <string name="title_activity_surface">Surface</string>
+    <string name="text_bootcamp_example">Some text with string value in resource manager</string>
+    <string name="title_activity_counter_view_entry_point">CounterViewEntryPoint</string>
 </resources>
