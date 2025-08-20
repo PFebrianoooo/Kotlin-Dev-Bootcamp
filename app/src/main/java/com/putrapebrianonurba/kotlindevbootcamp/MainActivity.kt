@@ -22,6 +22,7 @@ import com.putrapebrianonurba.kotlindevbootcamp.navigationbootcamp.NestedNavigat
 import com.putrapebrianonurba.kotlindevbootcamp.scaffoldbootcamp.BottomBarBootcamp
 import com.putrapebrianonurba.kotlindevbootcamp.scaffoldbootcamp.NavigationDrawerBootcamp
 import com.putrapebrianonurba.kotlindevbootcamp.ui.theme.KotlinDevBootcampTheme
+import com.putrapebrianonurba.kotlindevbootcamp.uidesign.whatsapp.MainScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,7 +43,8 @@ class MainActivity : ComponentActivity() {
                 // LottieAnimationBootcamp()
                 // AnimatedSplashScreenNavHost()
                 // AnimatedOnboardingLottieBootcampNavHost()
-                NavigationDrawerBootcamp()
+                // NavigationDrawerBootcamp()
+                MainScreen()
             }
         }
     }
