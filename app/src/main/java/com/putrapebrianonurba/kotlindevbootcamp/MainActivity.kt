@@ -22,6 +22,7 @@ import com.putrapebrianonurba.kotlindevbootcamp.navigationbootcamp.NestedNavigat
 import com.putrapebrianonurba.kotlindevbootcamp.scaffoldbootcamp.BottomBarBootcamp
 import com.putrapebrianonurba.kotlindevbootcamp.scaffoldbootcamp.NavigationDrawerBootcamp
 import com.putrapebrianonurba.kotlindevbootcamp.ui.theme.KotlinDevBootcampTheme
+import com.putrapebrianonurba.kotlindevbootcamp.uidesign.instagram.InstagramLayouts
 import com.putrapebrianonurba.kotlindevbootcamp.uidesign.whatsapp.MainScreen
 
 class MainActivity : ComponentActivity() {
@@ -44,7 +45,8 @@ class MainActivity : ComponentActivity() {
                 // AnimatedSplashScreenNavHost()
                 // AnimatedOnboardingLottieBootcampNavHost()
                 // NavigationDrawerBootcamp()
-                MainScreen()
+                // MainScreen()
+                InstagramLayouts()
             }
         }
     }
