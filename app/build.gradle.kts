@@ -74,4 +74,12 @@ dependencies {
 
     // Dependency for Extended Icons
     implementation("androidx.compose.material:material-icons-extended:1.5.3")
+
+    // Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.2")
+
+    // Coil
+    implementation("io.coil-kt:coil-compose:2.7.0")
 }

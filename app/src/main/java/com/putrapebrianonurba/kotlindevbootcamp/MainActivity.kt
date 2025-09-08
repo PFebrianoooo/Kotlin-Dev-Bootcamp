@@ -19,6 +19,7 @@ import com.putrapebrianonurba.kotlindevbootcamp.navigationbootcamp.LazyWithNavig
 import com.putrapebrianonurba.kotlindevbootcamp.navigationbootcamp.NavigationNavHost
 import com.putrapebrianonurba.kotlindevbootcamp.navigationbootcamp.NavigationNavHostForArguments
 import com.putrapebrianonurba.kotlindevbootcamp.navigationbootcamp.NestedNavigationNavHost
+import com.putrapebrianonurba.kotlindevbootcamp.retrofit.view.ProductsView
 import com.putrapebrianonurba.kotlindevbootcamp.scaffoldbootcamp.BottomBarBootcamp
 import com.putrapebrianonurba.kotlindevbootcamp.scaffoldbootcamp.NavigationDrawerBootcamp
 import com.putrapebrianonurba.kotlindevbootcamp.ui.theme.KotlinDevBootcampTheme
@@ -48,7 +49,8 @@ class MainActivity : ComponentActivity() {
                 // NavigationDrawerBootcamp()
                 // MainScreen()
                 // InstagramLayouts()
-                CookieAppMain()
+                // CookieAppMain()
+                ProductsView()
             }
         }
     }
